@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+html {
+  font-size: 62.5%;
+  
+}
+body {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+
+/* general style */
+.containner-width {
+  width: 1322px;
+
+  margin: auto;
+}
+
+/* navigation */
+.navigation {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.nav-bar {
+  display: flex;
+  padding: 10px 0;
+}
+
+.nav-left {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.nav-center {
+  width: 25%;
+}
+.nav-right {
+  width: 45%;
+}
+.list-nav {
+  display: flex;
+  gap: 5px;
+  height: 100%;
+
+  align-items: center;
+}
+.list-nav > li {
+  height: 100%;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+.nav-left > .left-list > li {
+  display: flex;
+  align-items: center;
+}
+.nav-center {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav-center > a > img {
+  width: 130px;
+  height: 25px;
+}
+
+/* right navigation */
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.search-box {
+  height: 35px;
+  border: 2px solid brown;
+  padding: 0 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.search-box > input {
+  height: 100%;
+  border: none;
+  /* outline: none; */
+  padding-left: 8px;
+  color: grey;
+  width: 130px;
+}
+.search-box > input:focus {
+  outline: none;
+}
+.nav-right > .list-nav > li {
+  display: flex;
+  align-items: center;
+}
+.nav-right > .list-nav > li > a > i {
+  font-size: 20px;
+}
+
+.left-list > li:hover {
+  background-color: grey;
+}
+.right-list > li:not(:first-child):hover {
+  background-color: grey;
+}
+
+/* slide */
+.slide{
+  height: 500px;
+}
